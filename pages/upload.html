@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/upload.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="body__header">
+        <nav class="header__nav">
+            <figure class="header__figure">
+                <img class="header__img" src="/assets/images/logo.jpg" alt="logo VideoTube">
+            </figure>
+            <input id="nav__input" type="text" name="search" size="20" placeholder="  🔍 Search">
+        </nav>
+    </header>
+    <main>
+        <form id="form">
+            <legend class="form__legend1"> Enter the information of the video that you want to upload </legend>
+            <label for="name" size="26">Name </label>
+            <input id="name"type="text" placeholder="Enter the video name ">
+            <label for="videoImage" size="26">Image </label>
+            <input type="text" placeholder="Enter the image url">
+            <label for="author" size="26">Author </label>
+            <input type="text" placeholder="Enter the author name">
+            <label for="authorImage" size="26">Author img </label>
+            <input type="text" placeholder="Enter the author image url">
+            <label for="followers" size="26">Followers </label>
+            <input type="number" placeholder="Enter the number of followera">
+            <label for="filter" size="26">Category </label>
+            <select id="filter">
+                <option value="">
+                    Select an option...
+                </option>
+                <option value="">
+                    To dance
+                </option>
+                <option value="">
+                    Inspiring
+                </option>
+                <option value="">
+                    Sad
+                </option>
+                <option value="">
+                    About love
+                </option>
+            </select>
+         <button name="upload" id="form__button"> Upload </button>
+        </form>
+    </main>
+    <footer class="body__footer">
+    By Paola Torres, made with love 🤍 and tears 🥲
+    </footer>
+    <script type="module" type="text/javascript" src="/scripts/upload.js"></script>
+</body>
+</html>
